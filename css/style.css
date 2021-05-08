@@ -1,0 +1,405 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+/**********************
+    header section
+***********************/
+ul{
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+header{
+	background: url(../img/snow.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 100%;
+	position: relative;
+	height: 100vh;
+}
+
+.nav-link{
+	font-family: 'Mulish', sans-serif;
+	color: white !important;
+	font-size: 16px;
+	font-weight: 500;
+	transition: 0.5s;
+}
+.nav-link:hover{
+	color: #ffff00 !important;
+	transition: 0.5s;
+}
+.nav-item{
+	margin-left: 14px;
+}
+.navbar{
+	padding: 32px 0px;
+}
+.header-text{
+	text-align: center; 
+}
+.header-text h3{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 30px;
+	color: #82aac9;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+.header-text h1{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 200px;
+	color: #66adcc;
+	font-weight: 900;
+	text-transform: uppercase;
+	line-height: 195px;
+}
+/**********************
+    banner section
+***********************/
+.banner{
+	width:100%;
+	background: url(../img/snow1.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: absolute;	
+	height: 72vh;
+	bottom: 0;
+	margin-bottom: -6%;
+}
+.banner-text{
+	padding: 180px 0px;
+	padding-left: 80px;
+}
+.banner-text p{
+	font-family: 'Mulish', sans-serif;
+	font-size: 20px;
+	color: #fefefe;
+	font-weight: 300;
+	padding-bottom: 12px;
+}
+.banner-text button{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 16px;
+	color: #fefefe;
+	background: #ff690f;
+	padding: 10px 30px;
+	text-transform: uppercase;
+	font-weight: 500;
+	border-radius: 4px;
+	border: none;
+	margin-bottom: 12px;
+	transition: 0.5s;
+}
+.banner-text button:hover{
+	background: #006bff !important;
+	color: #ffffff;
+	transition: 0.5s;
+}
+.banner-img{
+	padding: 5px 10px;
+}
+.banner-photo img{
+	position: absolute;
+	top: 55%;
+}
+.banner-layer img{
+	position: absolute;
+	top: 84%;
+}
+/**********************
+    offer section
+***********************/
+.offer{
+	background: #f7f8f8;
+	padding: 150px 0px;
+	text-align: center;
+}
+.offer-text h1{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 60px;
+	color: #2f2f2f;
+	font-weight: 800;
+}
+.offer-text p{
+	font-family: 'Mulish', sans-serif;
+	color: #525252;
+	font-size: 16px;
+	padding: 10px 15%;
+}
+.offer-item{
+	padding: 15px 0px;
+}
+.offer-about img{
+	padding: 25px 0px;
+}
+.offer-about3 img{
+	padding: 25px 0px;
+}
+.offer-about p{
+	font-family: 'Mulish', sans-serif;
+	font-size: 14px;
+	color: #525252;
+	font-weight: 300;
+	line-height: 5px;
+}
+.offer-about3{
+	padding: 15px 0px;
+}
+.offer-about h3{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 24px;
+	color: #2f2f2f;
+	font-weight: 800;
+	padding: 0px 15%;
+}
+.offer-about button{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 15px;
+	background: #ff690f;
+	color: #fefefe;
+	font-weight: 600;
+	padding: 7px 16px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 7px;
+	transition: 0.5s;
+}
+.offer-about button:hover{
+	background: #006bff;
+	color: #ffffff;
+	transition: 0.5s;
+}
+.offer-about3 p{
+	font-family: 'Mulish', sans-serif;
+	font-size: 14px;
+	color: #525252;
+	font-weight: 300;
+	line-height: 5px;
+}
+.offer-about3 h3{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 24px;
+	color: #2f2f2f;
+	font-weight: 800;
+	padding: 0px 15%;
+}
+.offer-about3 button{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 15px;
+	background: #ff690f;
+	color: #fefefe;
+	font-weight: 600;
+	padding: 7px 16px;
+	border: none;
+	border-radius: 5px;
+	margin-top: 7px;
+	transition: 0.5s;
+}
+.offer-about3 button:hover{
+	background: #006bff;
+	color: #ffffff;
+	transition: 0.5s;
+}
+/**********************
+    photo section
+***********************/
+.photo{
+	display: flex;
+}
+.photo-item1{
+	flex-basis: 100%;
+}
+.photo-item2{
+	flex-basis: 100%;
+}
+.photo-item3{
+	flex-basis: 99%;
+}
+/**********************
+    crew section
+***********************/
+
+.crew{
+	background: #f7f8f8;
+	padding: 150px 0px;
+	text-align: center;
+}
+.crew-text h1{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 60px;
+	color: #2f2f2f;
+	font-weight: 800;
+}
+.crew-list{
+	padding: 30px 0px;
+}
+.crew-about span img{
+	width: 65%;
+	height: 65%;
+	line-height: 65%;
+	border-radius: 30%;
+}
+.crew-about p{
+	font-family: 'Mulish', sans-serif;
+	font-size: 14px;
+	color: #525252;
+	font-weight: 300;
+	padding-top: 30px;
+	line-height: 5px;
+	text-transform: uppercase;
+}
+.crew-about h3{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 24px;
+	color: #2f2f2f;
+	font-weight: 800;
+	text-transform: uppercase;
+}
+/**********************
+    mountain section
+***********************/
+.mountain{
+	width: 100%;
+	background: url(../img/snow20.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	height: 100vh;
+	padding: 180px 0px;
+}
+.mountain-text{
+
+}
+.mountain-text h1{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 60px;
+	color: #2f2f2f;
+	font-weight: 800;
+}
+.mountain-text p{
+	font-family: 'Mulish', sans-serif;
+	font-size: 14px;
+	color: #272727;
+	font-weight: 400;
+	padding-top: 15px;
+}
+.mountain-text h5{
+	font-family: 'Mulish', sans-serif;
+	font-size: 14px;
+	color: #272727;
+	font-weight: 400;
+	margin-bottom: 62px;
+}
+.mountain-time{
+
+}
+.mountain-time h1{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 64px;
+	color: #ff660d;
+	font-weight: 800;
+	line-height: 51px;
+}
+.mountain-time h6{
+	font-family: 'Mulish', sans-serif;
+	font-size: 14px;
+	color: #272727;
+	font-weight: 700;
+	text-transform: uppercase;
+}
+/**********************
+  testimonials section
+***********************/
+.testimonials{
+	background: #f7f8f8;
+	padding: 150px 0px;
+	text-align: center; 
+}
+.owl-carousel .owl-item img{
+	display: inline-block;
+}
+.owl-theme .owl-dots .owl-dot span{
+	background: #ff660d !important;
+}
+.testimonials-text h1{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 60px;
+	color: #2f2f2f;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding-bottom: 20px;
+}
+
+.testimonials-text span img{
+	width: 7% !important;
+	height: 7%;
+	line-height: 7%;
+	border-radius: 30%;
+	padding-bottom: 15px;
+	
+}
+.testimonials-text h4{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 18px;
+	color: #2f2f2f;
+	font-weight: 900;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+
+}
+.testimonials-text p{
+	font-family: 'Mulish', sans-serif;
+	font-size: 18px;
+	color: #2f2f2f;
+	font-weight: 400;
+	padding: 0px 15%;
+}
+/**********************
+  contact section
+***********************/
+.contact{
+	width: 100%;
+	background: #2f2f2f;
+}
+.contact-text{
+	padding: 60px;
+}
+.contact-text h1{
+	font-family: 'Catamaran', sans-serif;
+	font-size: 60px;
+	color: #ffffff;
+	font-weight: 800;
+	text-transform: uppercase;
+	padding-bottom: 15px;
+}
+.contact-text ul li i{
+	color: #ff660d;
+	margin-right: 16px;
+	padding-bottom: 18px;
+	padding-left: 20px;
+}
+.contact-text ul li span{
+	font-family: 'Mulish', sans-serif;
+	color: #f8f8f8;
+	font-size: 16px;
+	font-weight: 300;
+	text-transform: uppercase;
+}
+/**********************
+  footer section
+***********************/
+.social-footer{
+	margin-left: 80px;
+}
+.social-footer ul li{
+	list-style: none;
+	display: inline-block;
+	margin-right: 18px;	
+}
+.social-footer ul li a i{
+	font-size: 20px;
+	color: #979797;
+}
